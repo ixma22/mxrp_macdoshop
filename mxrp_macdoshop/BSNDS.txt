@@ -1,0 +1,270 @@
+--
+--
+-- MACDONALD'S
+--
+--
+
+----------------------- MENUS -------------------------
+
+ESX.RegisterUsableItem('menubestof', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('menubestof', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 300000)
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_menubestof'))
+end)
+
+ESX.RegisterUsableItem('menumcfirstboeuf', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('menumcfirstboeuf', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_menumcfirstboeuf'))
+end)
+
+ESX.RegisterUsableItem('menumcfirstpoulet', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('menumcfirstpoulet', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_menumcfirstpoulet'))
+end)
+
+ESX.RegisterUsableItem('menumcfirstpoisson', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('menumcfirstpoisson', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_menumcfirstpoisson'))
+end)
+
+ESX.RegisterUsableItem('menuhappymeal', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('menuhappymeal', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_menuhappymeal'))
+end)
+
+---------------------- BURGER ------------------------
+
+ESX.RegisterUsableItem('mcdosignature', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdosignature', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdosignature'))
+end)
+
+ESX.RegisterUsableItem('mcdobaguette', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdobaguette', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 200000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdobaguette'))
+end)
+
+ESX.RegisterUsableItem('mcdobigmac', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdobigmac', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 250000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdobigmac'))
+end)
+
+ESX.RegisterUsableItem('mcdofiletofish', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdofiletofish', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 200000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdofiletofish'))
+end)
+
+ESX.RegisterUsableItem('mcdocbo', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdocbo', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 200000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdocbo'))
+end)
+
+------------------- PETITE FAIM ---------------------
+
+ESX.RegisterUsableItem('mcdonuggets', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdonuggets', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdonuggets'))
+end)
+
+ESX.RegisterUsableItem('mcdocroquemcdo', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdocroquemcdo', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdocroquemcdo'))
+end)
+
+ESX.RegisterUsableItem('mcdowrap', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdowrap', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdowrap'))
+end)
+
+ESX.RegisterUsableItem('mcdofrites', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdofrites', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdofrites'))
+end)
+
+ESX.RegisterUsableItem('mcdopotatoes', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcdopotatoes', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcdopotatoes'))
+end)
+
+---------------------- BOISSON -------------------------
+
+ESX.RegisterUsableItem('cocacola', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('cocacola', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_cocacola'))
+end)
+
+ESX.RegisterUsableItem('cocacolac', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('cocacolac', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_cocacolac'))
+end)
+
+ESX.RegisterUsableItem('sprite', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('sprite', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_sprite'))
+end)
+
+ESX.RegisterUsableItem('icetea', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('icetea', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_icetea'))
+end)
+
+ESX.RegisterUsableItem('fanta', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('fanta', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 150000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_fanta'))
+end)
+
+ESX.RegisterUsableItem('evian', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('evian', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_evian'))
+end)
+
+---------------------- DESSERT -------------------------
+
+ESX.RegisterUsableItem('mcflurry', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('mcflurry', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_mcflurry'))
+end)
+
+ESX.RegisterUsableItem('sunday', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('sunday', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_sunday'))
+end)
+
+ESX.RegisterUsableItem('donut', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('donut', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_donuts'))
+end)
+
+ESX.RegisterUsableItem('milkshake', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('milkshake', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'hunger', 150000)
+	TriggerClientEvent('esx_basicneeds:onEat', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_milkshake'))
+end)

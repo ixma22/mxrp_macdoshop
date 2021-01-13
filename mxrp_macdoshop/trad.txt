@@ -1,0 +1,30 @@
+    --------------------------------------------------------
+	------------------------- MCDO -------------------------
+	--------------------------------------------------------
+	['used_menubestof']          = 'vous avez utilisé ~y~1x~s~ ~b~Menu Best OF~s~',
+	['used_menumcfirstboeuf']    = 'vous avez utilisé ~y~1x~s~ ~b~Menu MC first boeuf~s~',
+	['used_menumcfirstpoulet']   = 'vous avez utilisé ~y~1x~s~ ~b~Menu MC first poulet~s~',
+	['used_menumcfirstpoisson']  = 'vous avez utilisé ~y~1x~s~ ~b~Menu MC first poisson~s~',
+	['used_menuhappymeal']       = 'vous avez utilisé ~y~1x~s~ ~b~Happy Meal~s~',
+	------------------------ BURGER ------------------------
+	['used_mcdosignature']       = 'vous avez utilisé ~y~1x~s~ ~b~Signature~s~',
+	['used_mcdobaguette']        = 'vous avez utilisé ~y~1x~s~ ~b~Mc Baquette~s~',
+	['used_mcdobigmac']          = 'vous avez utilisé ~y~1x~s~ ~b~Big Mac~s~',
+	['used_mcdofiletofish']      = 'vous avez utilisé ~y~1x~s~ ~b~Filet O Fish~s~',
+	['used_mcdocbo']             = 'vous avez utilisé ~y~1x~s~ ~b~CBO~s~',
+	------------------------ BURGER ------------------------
+	['used_mcdonuggets']         = 'vous avez utilisé ~y~1x~s~ ~b~Boite de nuggets~s~',
+	['used_mcdocroquemcdo']      = 'vous avez utilisé ~y~1x~s~ ~b~Croque Macdo~s~',
+	['used_mcdowrap']            = 'vous avez utilisé ~y~1x~s~ ~b~Wrap~s~',
+	['used_mcdofrites']          = 'vous avez utilisé ~y~1x~s~ ~b~Frites~s~',
+	['used_mcdopotatoes']        = 'vous avez utilisé ~y~1x~s~ ~b~Potatoes~s~',
+	------------------------ BOISSON ------------------------
+	['used_sprite']              = 'vous avez utilisé ~y~1x~s~ ~b~Sprite~s~',
+	['used_evian']               = 'vous avez utilisé ~y~1x~s~ ~b~Evian~s~',
+	['used_cocacola']            = 'vous avez utilisé ~y~1x~s~ ~b~Coca~s~',
+	['used_icetea']              = 'vous avez utilisé ~y~1x~s~ ~b~Ice Tea~s~',
+	------------------------ DESSERT ------------------------
+	['used_mcflurry']              = 'vous avez utilisé ~y~1x~s~ ~b~Mc Flurry~s~',
+	['used_sunday']               = 'vous avez utilisé ~y~1x~s~ ~b~Sunday~s~',
+	['used_donuts']            = 'vous avez utilisé ~y~1x~s~ ~b~Donut~s~',
+	['used_milkshake']              = 'vous avez utilisé ~y~1x~s~ ~b~Milk Shake~s~',
