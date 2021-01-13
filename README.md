@@ -16,3 +16,7 @@ Un shop fait a base de rageui, achat de vrai produits a la carte de MacDonald's 
 
 discord : MAXIME_22#3114            
 GitHub : github.com/ixma22
+
+# Vidéo
+
+https://streamable.com/ma40uc
