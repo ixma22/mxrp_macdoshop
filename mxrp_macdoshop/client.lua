@@ -83,27 +83,27 @@ Citizen.CreateThread(function()
         end)
 
         RageUI.IsVisible(RMenu:Get('mcdo', 'menu'), true, true, true, function()
-            RageUI.Button("Menu Best OF", "description", {RightLabel = "~g~20$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Menu Best OF", nil, {RightLabel = "~g~20$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buybestof')
                 end
             end)
-			RageUI.Button("Menu MC Frist - boeuf", "description", {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Menu MC Frist - boeuf", nil, {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcfirstboeuf')
                 end
             end)
-			RageUI.Button("Menu MC Frist - poulet", "description", {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Menu MC Frist - poulet", nil, {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcfirstpoulet')
                 end
             end)
-			RageUI.Button("Menu MC Frist - poisson", "description", {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Menu MC Frist - poisson", nil, {RightLabel = "~g~15$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcfirstpoisson')
                 end
             end)
-			RageUI.Button("Menu Happy Meal", "description", {RightLabel = "~g~10$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Menu Happy Meal", nil, {RightLabel = "~g~10$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:BuyHappymeal')
                 end
@@ -111,27 +111,27 @@ Citizen.CreateThread(function()
         end, function()
         end)
         RageUI.IsVisible(RMenu:Get('mcdo', 'burger'), true, true, true, function()
-            RageUI.Button("Signature", "description", {RightLabel = "~g~7$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Signature", nil, {RightLabel = "~g~7$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdosignature')
                 end
             end)
-			RageUI.Button("Mc Baguette", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Mc Baguette", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdobaguette')
                 end
             end)
-			RageUI.Button("Big Mac", "description", {RightLabel = "~g~8$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Big Mac", nil, {RightLabel = "~g~8$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdobigmac')
                 end
             end)
-			RageUI.Button("Filet O Fish", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Filet O Fish", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdofiletofish')
                 end
             end)
-			RageUI.Button("C.B.O.", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("C.B.O.", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdocbo')
                 end
@@ -139,27 +139,27 @@ Citizen.CreateThread(function()
         end, function()
         end)
         RageUI.IsVisible(RMenu:Get('mcdo', 'petitefaim'), true, true, true, function()
-            RageUI.Button("Boite de nuggets", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Boite de nuggets", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdonuggets')
                 end
             end)
-			RageUI.Button("Croque macdo", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Croque macdo", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdocroquemcdo')
                 end
             end)
-			RageUI.Button("Wrap", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Wrap", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdowrap')
                 end
             end)
-			RageUI.Button("Frites", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Frites", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdofrites')
                 end
             end)
-			RageUI.Button("Potatoes", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Potatoes", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcdopotatoes')
                 end
@@ -167,32 +167,32 @@ Citizen.CreateThread(function()
         end, function()
         end)
         RageUI.IsVisible(RMenu:Get('mcdo', 'boisson'), true, true, true, function()
-            RageUI.Button("Coca", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Coca", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buycoca')
                 end
             end)
-			RageUI.Button("Coca cherry", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Coca cherry", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buycocacherry')
                 end
             end)
-			RageUI.Button("Ice-Tea", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Ice-Tea", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buyicetea')
                 end
             end)
-			RageUI.Button("Sprite", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Sprite", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buysprite')
                 end
             end)
-			RageUI.Button("Fanta", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Fanta", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buyfanta')
                 end
             end)
-            RageUI.Button("Evian", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Evian", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buyevian')
                 end
@@ -200,22 +200,22 @@ Citizen.CreateThread(function()
         end, function()
         end)
         RageUI.IsVisible(RMenu:Get('mcdo', 'dessert'), true, true, true, function()
-            RageUI.Button("Mc Flurry", "description", {RightLabel = "~g~8$"}, true, function(Hovered, Active, Selected)
+            RageUI.Button("Mc Flurry", nil, {RightLabel = "~g~8$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymcflurry')
                 end
             end)
-			RageUI.Button("Sunday", "description", {RightLabel = "~g~7$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Sunday", nil, {RightLabel = "~g~7$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buysunday')
                 end
             end)
-			RageUI.Button("Donut", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Donut", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buydonuts')
                 end
             end)
-			RageUI.Button("Milk Shake", "description", {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
+			RageUI.Button("Milk Shake", nil, {RightLabel = "~g~5$"}, true, function(Hovered, Active, Selected)
                 if (Selected) then
                     TriggerServerEvent('mxrp_macdoshop:Buymilkshake')
                 end
