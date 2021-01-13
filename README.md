@@ -14,5 +14,5 @@ Un shop fait a base de rageui, achat de vrai produits a la carte de MacDonald's 
 
 # Crédits
 
-discord : MAXIME_22#3114
+discord : MAXIME_22#3114            
 GitHub : github.com/ixma22
